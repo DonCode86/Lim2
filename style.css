@@ -1,0 +1,88 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Mulish',sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 5% 3% 5% 3%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.logo {
+  width: 250px;
+}
+
+.logo-text {
+  font-size: 35px;
+  color: rgb(8,220,4);
+  margin-bottom: 5px;
+  margin-top: 2%;
+}
+
+button {
+  font-size: 12px;
+  font-weight: 750;
+}
+
+header, nav {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(8,220,4);
+  padding: 1%;
+}
+
+ul {
+  padding: 28px;
+  padding-bottom: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: square;
+  font-size: 22px;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+ul, h5 {
+  color: white;
+}
+
+.Address:before {
+  content: "\21A6";
+  padding-right: 3px;
+}
+
+.bar {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.rectangle {
+  width: 35%;
+  background-color: rgba(245,180,83,255);
+}
+
+.rectangle2 {
+  width: 60%;
+  background-color: rgba(30,195,30,255);
+}
+
+.rectangle3 {
+  width: 15%;
+  background-color: rgba(190,65,65,255);
+}
